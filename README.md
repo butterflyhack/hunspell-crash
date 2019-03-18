@@ -3,7 +3,7 @@ find a crash by libfuzzer , the crash was caused by a invalid READ memory access
 
 $cd crash
 #
-$./first_fuzzer crash-*
+$./first_fuzzer crash-9eef7d776f4a1634bd71a2c43aba9f2139f256a5
 
 ```
 ==70237==ERROR: AddressSanitizer: SEGV on unknown address 0xfffffffffffffffe (pc 0x000000548e7c bp 0x7ffc24a458e0 sp 0x7ffc24a458b0 T0)
