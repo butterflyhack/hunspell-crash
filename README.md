@@ -1,4 +1,5 @@
 # hunspell-crash
+libfuzz fuzz hunspell-1.7.0 source code 
 find a crash by libfuzzer , the crash was caused by a invalid READ memory access.
 
 $cd crash
